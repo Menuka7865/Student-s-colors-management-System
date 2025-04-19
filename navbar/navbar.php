@@ -18,7 +18,7 @@ if (isset($_GET['logout'])) {
 <head>
     <meta charset="UTF-8">
     <title>Official Navbar</title>
-    <
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
