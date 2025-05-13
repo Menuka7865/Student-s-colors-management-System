@@ -1,0 +1,134 @@
+*{
+    font-family: sans-serif;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    width: 524px;
+    height:700px;
+    background-color: #520103;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    margin-top: 20px;
+    margin-left: 1010px;
+}
+.bars{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 250px;
+
+}
+.bar2{
+   width: 300px;
+   height: 100px;
+   background-color: #E6DB91;
+}
+.bar1,.bar2 {
+  width: 300px;              
+  height: 100px;            
+  background-color: #E6DB91; 
+  border: 1px solid #000;   
+  display: flex;
+  justify-content: center;  
+  align-items: center;       
+}
+
+.bar1 a,.bar2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+.bar1 a:hover,.bar2 a:hover{
+    color: rgb(71, 71, 220);
+} 
+
+.chart-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 50px;
+}
+
+.pie-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #4a90e2 0% 60%,    
+        #e6d891 60% 100%   
+      );
+    border: 1px solid #ccc;
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+.legend-color {
+    width: 15px;
+    height: 15px;
+}
+
+.blue {
+    background-color: #4a90e2;
+}
+
+.yellow {
+    background-color: #e6d891;
+    
+}
+.chart-container{
+    margin-top: 70px;
+    margin-left: 500px;
+}
+.sidebar{
+    color: aliceblue;
+}
+.sidebar-header {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.subtitle .admin {
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 130px;
+  margin-top: 6px;
+}
+.dropdown{
+    margin-top: 100px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    
+}
